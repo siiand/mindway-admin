@@ -1,0 +1,19 @@
+import {
+    {{constantCase action_name}}_INIT,
+    {{constantCase action_name}}_SUCCESS,
+    {{constantCase action_name}}_ERROR
+} from '../constants/{{properCase action_prefix}}Constants.js';
+
+export const {{camelCase action_name}}Init = () => ({
+    type: {{constantCase action_name}}_INIT,
+});
+
+export const {{camelCase action_name}}Success = (data) => ({
+    type: {{constantCase action_name}}_SUCCESS,
+    data
+});
+
+export const {{camelCase action_name}}Error = (error) => ({
+    type: {{constantCase action_name}}_ERROR,
+    error
+});

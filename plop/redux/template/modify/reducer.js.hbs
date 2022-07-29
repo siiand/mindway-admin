@@ -1,0 +1,7 @@
+case {{constantCase action_name}}_INIT:
+            return { ...state, loading: true };
+        case {{constantCase action_name}}_SUCCESS:
+            return { ...state, success: true, data: action.data, loading: false };
+        case {{constantCase action_name}}_ERROR:
+            return { ...state, error: action.error,loading: false };
+            //plopImport

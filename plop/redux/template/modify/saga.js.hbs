@@ -1,0 +1,11 @@
+export function* {{camelCase action_name}}() {
+  yield takeEvery({{constantCase action_name}}_INIT, function* () {
+    try {
+      const data = yield call();
+      yield put();
+    } catch (error) {
+      yield put();
+    }
+  });
+}
+//plopSaga
