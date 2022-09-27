@@ -32,7 +32,7 @@ const DoctorCategory = () => {
 
   const columns = [
     {
-      title: "Category Icon",
+      title: "이미지",
       dataIndex: "iconUrl",
       key: "name",
       render: (_, record) => (
@@ -46,7 +46,7 @@ const DoctorCategory = () => {
       ),
     },
     {
-      title: "Category Name",
+      title: "카테고리",
       dataIndex: "categoryName",
       key: "categoryname",
     },
@@ -102,11 +102,11 @@ const DoctorCategory = () => {
   };
   return (
     <Card
-      title="Doctor Category"
+      title="카테고리"
       extra={
         <Space>
           <Button icon={<PlusOutlined />}>
-            <Link to={"new-doctor-category"}>Add Doctor Category</Link>
+            <Link to={"new-doctor-category"}>카테고리 추가</Link>
           </Button>
         </Space>
       }

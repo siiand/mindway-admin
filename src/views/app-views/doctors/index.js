@@ -51,13 +51,13 @@ const Doctors = () => {
 
   const columns = [
     {
-      title: "Date Register",
+      title: "등록일",
       key: "date",
       dataIndex: "createdAt",
       width: "20%",
     },
     {
-      title: "Doctor Picture",
+      title: "사진",
       dataIndex: "doctorPicture",
       key: "name",
       render: (_, record) => (
@@ -71,22 +71,22 @@ const Doctors = () => {
       ),
     },
     {
-      title: "Doctor Name",
+      title: "이름",
       dataIndex: "doctorName",
       key: "doctorName",
     },
     {
-      title: "Hospital",
+      title: "상담소",
       dataIndex: "doctorHospital",
       key: "doctorHospital",
     },
     {
-      title: "Category / Specialist",
+      title: "카테고리 / 전문분야",
       dataIndex: ["doctorCategory", "categoryName"],
       key: "doctorHospital",
     },
     {
-      title: "Account Status",
+      title: "계정 상태",
       key: "doctorHospital",
       dataIndex: "accountStatus",
       render: (tag) => (
@@ -137,7 +137,7 @@ const Doctors = () => {
 
   const topRatedDoctorColumns = [
     {
-      title: "Doctor Picture",
+      title: "사진",
       dataIndex: "doctorPicture",
       key: "name",
       render: (_, record) => (
@@ -151,17 +151,17 @@ const Doctors = () => {
       ),
     },
     {
-      title: "Doctor Name",
+      title: "이름",
       dataIndex: "doctorName",
       key: "doctorName",
     },
     {
-      title: "Hospital",
+      title: "상담소",
       dataIndex: "doctorHospital",
       key: "doctorHospital",
     },
     {
-      title: "Category / Specialist",
+      title: "카테고리 / 전문분야",
       dataIndex: ["doctorCategory", "categoryName"],
       key: "doctorHospital",
     },
@@ -282,7 +282,7 @@ const Doctors = () => {
           </Flex>
         </Flex> */}
         <Tabs defaultActiveKey="1">
-          <TabPane tab="Doctors" key="1">
+          <TabPane tab="상담사" key="1">
             <Table
               dataSource={doctorList}
               columns={columns}
@@ -293,7 +293,7 @@ const Doctors = () => {
             tab={
               <span>
                 <StarOutlined />
-                Top Rated Doctors
+                인기 상담사
               </span>
             }
             key="2"

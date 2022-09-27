@@ -38,7 +38,7 @@ const Transaction = () => {
 
   const columns = [
     {
-      title: "Name",
+      title: "이름",
       dataIndex: ["withdrawMethod", "name"],
       key: "name",
     },
@@ -48,33 +48,33 @@ const Transaction = () => {
       key: "email",
     },
     {
-      title: "Withdraw Method",
+      title: "인출 방법",
       dataIndex: ["withdrawMethod", "method"],
       key: "withrawMethod",
     },
     {
-      title: "Balance",
+      title: "잔고",
       dataIndex: "amount",
       key: "amount",
     },
     {
-      title: "Tax",
+      title: "세금",
       dataIndex: "tax",
       key: "tax",
     },
     {
-      title: "Admin Fee",
+      title: "수수료",
       dataIndex: "adminFee",
       key: "adminFee",
     },
     {
-      title: "Total Withdraw",
+      title: "총 인출량",
       dataIndex: "totalWithdraw",
       key: "totalWithdraw",
     },
 
     {
-      title: "Status",
+      title: "상태",
       dataIndex: "status",
       key: "status",
     },

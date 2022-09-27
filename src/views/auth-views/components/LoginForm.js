@@ -160,7 +160,7 @@ export const LoginForm = (props) => {
         </Form.Item>
         <Form.Item>
           <Button type="primary" htmlType="submit" block loading={loading}>
-            Sign In
+            로그인
           </Button>
         </Form.Item>
         {otherSignIn ? renderOtherSignIn : null}

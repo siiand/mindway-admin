@@ -21,7 +21,7 @@ const usersNavTree = [
   {
     key: "users",
     path: `${APP_PREFIX_PATH}/users`,
-    title: "Users",
+    title: "사용자",
     icon: UserOutlined,
     breadcrumb: false,
     submenu: [],
@@ -31,7 +31,7 @@ const DoctorsNavTree = [
   {
     key: "doctors",
     path: `${APP_PREFIX_PATH}/doctors`,
-    title: "Doctors",
+    title: "상담사",
     icon: UserOutlined,
     breadcrumb: false,
     submenu: [],
@@ -41,7 +41,7 @@ const DoctorCategoryNavTree = [
   {
     key: "doctor-category",
     path: `${APP_PREFIX_PATH}/doctor-category`,
-    title: "Doctor Category",
+    title: "상담 카테고리",
     icon: UserOutlined,
     breadcrumb: false,
     submenu: [],
@@ -52,7 +52,7 @@ const WithdrawNavTree = [
   {
     key: "withdraw",
     path: `${APP_PREFIX_PATH}/withdra-request`,
-    title: "Withdraw Request",
+    title: "인출 요청",
     icon: DollarCircleOutlined,
     breadcrumb: false,
     submenu: [],
@@ -62,7 +62,7 @@ const TransactionNavTree = [
   {
     key: "transaction",
     path: `${APP_PREFIX_PATH}/transaction`,
-    title: "Transaction",
+    title: "거래",
     icon: SwapOutlined,
     breadcrumb: false,
     submenu: [],

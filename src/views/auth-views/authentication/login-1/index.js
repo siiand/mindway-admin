@@ -27,8 +27,8 @@ const LoginOne = (props) => {
                     alt=""
                   />
                   <p>
-                    Don't have an account yet?{" "}
-                    <a href="/auth/register-1">Sign Up</a>
+                    계정을 생성하시겠습니까?{" "}
+                    <a href="/auth/register-1">가입</a>
                   </p>
                 </div>
                 <Row justify="center">

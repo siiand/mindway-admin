@@ -102,7 +102,7 @@ export const RegisterForm = (props) => {
 				</Form.Item>
 				<Form.Item>
 					<Button type="primary" htmlType="submit" block loading={loading}>
-						Sign Up
+						생성
 					</Button>
 				</Form.Item>
 			</Form>

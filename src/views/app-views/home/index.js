@@ -91,7 +91,7 @@ const Home = () => {
           <Row gutter={16}>
             <Col span={24}>
               <ChartWidget
-                title="Transaction Data"
+                title="거래량"
                 series={visitorChartData.series}
                 xAxis={visitorChartData.categories}
                 height={400}

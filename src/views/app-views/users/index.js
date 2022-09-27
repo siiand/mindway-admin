@@ -37,7 +37,7 @@ const Users = () => {
   }
   const columns = [
     {
-      title: "Display Name",
+      title: "이름",
       dataIndex: "displayName",
       key: "name",
     },
@@ -47,12 +47,12 @@ const Users = () => {
       key: "age",
     },
     {
-      title: "Created At",
+      title: "가입일",
       dataIndex: "createdAt",
       key: "createdAt",
     },
     {
-      title: "Role",
+      title: "role",
       dataIndex: "role",
     },
     {
@@ -74,7 +74,7 @@ const Users = () => {
   console.log("loading : " + loading);
   return (
     <div>
-      <Card title="List Users">
+      <Card title="사용자 리스트">
         <Table
           className="no-border-last"
           rowKey="id"
@@ -84,7 +84,7 @@ const Users = () => {
         />
       </Card>
       <div>
-        <h3>number of users {userList.length}</h3>
+        <h3>{userList.length} 사용자</h3>
       </div>
     </div>
   );

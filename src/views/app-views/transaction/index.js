@@ -20,31 +20,31 @@ const Transaction = () => {
 
   const columns = [
     {
-      title: "Date",
+      title: "날짜",
       key: "date",
       dataIndex: "createdAt",
       width: "20%",
     },
     {
-      title: "Amount",
+      title: "거래량",
       dataIndex: "amount",
       key: "amount",
       width: "10%",
     },
     {
-      title: "Type",
+      title: "타입",
       dataIndex: "type",
       key: "type",
       width: "15%",
     },
     {
-      title: "Status",
+      title: "상태",
       dataIndex: "status",
       key: "status",
       width: "10%",
     },
     {
-      title: "Link Receipt",
+      title: "영수증 링크",
       key: "amount",
       render: (text, record) => (
         <>
@@ -58,7 +58,7 @@ const Transaction = () => {
       width: "10%",
     },
     {
-      title: "User Id",
+      title: "사용자 ID",
       dataIndex: "userId",
       key: "amount",
     },

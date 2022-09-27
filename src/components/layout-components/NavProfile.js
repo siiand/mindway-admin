@@ -12,16 +12,16 @@ import Icon from "components/util-components/Icon";
 import { signOut } from "redux/actions/Auth";
 
 const menuItem = [
-  {
-    title: "Account Setting",
-    icon: SettingOutlined,
-    path: "https://halodoctor.netlify.app/",
-  },
-  {
-    title: "Help Center",
-    icon: QuestionCircleOutlined,
-    path: "/",
-  },
+  // {
+  //   title: "계정 설정",
+  //   icon: SettingOutlined,
+  //   path: "https://halodoctor.netlify.app/",
+  // },
+  // {
+  //   title: "Help Center",
+  //   icon: QuestionCircleOutlined,
+  //   path: "/",
+  // },
 ];
 
 export const NavProfile = ({ signOut }) => {
@@ -52,7 +52,7 @@ export const NavProfile = ({ signOut }) => {
           <Menu.Item key={menuItem.length + 1} onClick={(e) => signOut()}>
             <span>
               <LogoutOutlined />
-              <span className="font-weight-normal">Sign Out</span>
+              <span className="font-weight-normal">로그아웃</span>
             </span>
           </Menu.Item>
         </Menu>
